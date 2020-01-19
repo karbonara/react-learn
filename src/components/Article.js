@@ -1,16 +1,18 @@
 import React from 'react';
 
 function Article() {
-  const title  = <div><h1 className="title">о товаре</h1><p>какой то текст</p></div>
-  const btn = <button className="btn__main">купить</button>
   return (
-    <div className="square__main">
-      <div className="square"></div>
-      <h2>Hello React</h2>
-      {title}
-      {btn}
-      <p>текст рыба</p>
-      <a href="..." className="btn">buy</a>
+    <div className="container square__main">
+      <ul className="nav__item-title">
+                <li><a href="...">Каталог Запчастей</a></li>
+                <li><a href="...">Каталог ТО</a></li>
+                <li><a href="...">Шины</a></li>
+                <li><a href="...">Диски</a></li>
+                <li><a href="...">Аккумуляторы</a></li>
+                <li><a href="...">Автомасла</a></li>
+                <li><a href="...">Автолампы</a></li>
+                <li><a href="...">Аксессуары</a></li>
+            </ul>
     </div>
   )
 }

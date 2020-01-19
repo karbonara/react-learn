@@ -1,31 +1,43 @@
-.section__item {
-    background-color: black;
-    width: 550px;
-}
-.section__item img {
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    margin: 0 auto;
-}
-.section__item h2 {
-    color: blanchedalmond;
-    text-align: center;
-}
-.title {
-    color: blue;
-}
-.square__main {
-    background: cadetblue;
-    width: 350px;
-    text-align: center;
-}
 .container {
     display: flex;
 }
-.btn__main {
-    border: 1px solid black;
-    border-radius: 3px;
-    background: none;
-    text-transform: uppercase;
+.nav { 
+    padding-top: 50px;
+    align-items: center;
+}
+.nav__item-title {
+    display: flex;
+    padding: 0;
+    list-style: none;
+}
+.nav__item-link {
+    color: #000000;
+    padding: 12px;
+}
+.nav__item-link:focus,
+.nav__item-link:hover {
+    text-decoration: none; 
+    color: #000000; 
+    background: #F0F0F4;
+    border-radius: 5px; 
+}
+.container__banner {
+    justify-content: space-between;
+}
+.banner__sale {
+    border: 1px solid #000000;
+    border-radius: 5px;
+}
+.banner__sale p {
+    margin: 0;
+}
+.banner__sale-stock {
+    background: #F0F0F4;
+}
+.search__item {
+    padding: 12px;
+    background: #F0F0F4;
+    color: #000000;
+    text-decoration: none;
+    border-radius: 5px;
 }
