@@ -14,9 +14,9 @@ function Nav() {
                     ул Большая Конюшенная, д 19</p>
             </div>
             <ul className="nav__item-title">
-                <li><a href="...">...</a></li>
-                <li><a href="...">...</a></li>
-                <li><a href="...">...</a></li>
+                <li><a href="..."><img src="https://i.imgur.com/XqgrtnX.png" alt=".."></img></a></li>
+                <li><a href="..."><img src="https://i.imgur.com/WqsGJ9n.png" alt="..."></img></a></li>
+                <li><a href="..."><img src="https://i.imgur.com/UjId0on.png" alt="..."></img></a></li>
             </ul>
         </nav>
     )

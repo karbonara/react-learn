@@ -1,12 +1,17 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
 .container {
     display: flex;
 }
 .nav { 
     padding-top: 50px;
     align-items: center;
+    justify-content: space-between;
 }
 .nav__item-title {
     display: flex;
+    margin: 0;
     padding: 0;
     list-style: none;
 }
@@ -21,12 +26,31 @@
     background: #F0F0F4;
     border-radius: 5px; 
 }
-.container__banner {
+.nav__menu {
+    margin-top: 25px;
+    margin-bottom: 45px;
+    border-top: 1px solid #747474;
+    border-bottom: 1px solid #747474;
+}
+.nav__menu-items {
+    width: 100%;
     justify-content: space-between;
 }
+.nav__menu-item a {
+    color: #000;
+    display: block;
+    padding: 10px;
+    opacity: 1;
+}
+.container__banner {
+    justify-content: space-between;
+    padding-bottom: 70px;
+}
 .banner__sale {
+    text-align: center;
     border: 1px solid #000000;
     border-radius: 5px;
+    position: relative;
 }
 .banner__sale p {
     margin: 0;
@@ -34,10 +58,69 @@
 .banner__sale-stock {
     background: #F0F0F4;
 }
+.banner__stock {
+    transform: rotate(-90deg);
+    width: 100px;
+    display: block;
+    padding: 6px;
+    position: absolute;
+    top: 30px;
+    background: linear-gradient(93.82deg, #9710E9 1.17%, #FD8D43 99.31%);
+    left: -34px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+.search__items {
+    width: 780px;
+    justify-content: space-between;
+}
 .search__item {
+    display: flex;
     padding: 12px;
     background: #F0F0F4;
     color: #000000;
     text-decoration: none;
     border-radius: 5px;
+}
+.categories__items {
+    padding: 0;
+    display: flex;
+    list-style: none;
+    width: 1140px;
+    justify-content: space-between;
+}
+.categories__item {
+    width: 320px;
+    height: 129px;
+    display: flex;
+    position: relative;
+    border: 1px solid #CDCDCD;
+    position: relative;
+    border-radius: 3px;
+    box-sizing: border-box;
+    padding: 15px;
+}
+.categories__item::before {
+    content: '';
+    top: 26px;
+    z-index: 100;
+    left: 146px;
+    position: absolute;
+    width: 97px;
+    height: 97px;
+    background-image: url('https://i.imgur.com/YNhbuBD.png');
+    background-repeat: no-repeat;
+}
+.categories__item:hover {
+    box-shadow: 3px 3px 20px rgba(50, 50, 50, 0.25);
+    border: 1px solid #fff;
+}
+.categories__item::after {
+    content: '';
+    left: 120px;
+    position: absolute;
+    width: 97px;
+    height: 97px;
+    border-radius: 50%;
+    background: #FF7931;
 }

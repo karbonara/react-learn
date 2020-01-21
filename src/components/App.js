@@ -1,11 +1,11 @@
 import React from 'react'
+import '../index.css'
+import 'bootstrap/dist/css/bootstrap.min.css';
 import Article from './Article'
 import Banner from './Banner'
 import Search from './Search'
-// import Section from './Section'
+import Categories from './Categories'
 import Nav from './Nav'
-import '../index.css'
-import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
     return (
@@ -14,6 +14,8 @@ function App() {
             <Article />
             <Banner />
             <Search />
+            <Categories />
+            <Categories />
         </div>
     )
 } 

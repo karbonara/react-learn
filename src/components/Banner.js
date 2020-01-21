@@ -7,7 +7,7 @@ function Banner() {
                 <img src="https://i.imgur.com/mn8qnZK.png" alt="..." width="770"></img>
             </div>
             <div className="banner__sale">
-                <div>
+                <div className="banner__stock">
                     <p>Акция</p>
                 </div>
                 <p>200р</p>
