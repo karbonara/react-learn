@@ -6,6 +6,9 @@ import Banner from './Banner'
 import Search from './Search'
 import Categories from './Categories'
 import Nav from './Nav'
+import Popular from './Popular';
+import FooterNav from './FooterNav';
+import BannerFooter from './BannerFooter';
 
 function App() {
     return (
@@ -16,6 +19,10 @@ function App() {
             <Search />
             <Categories />
             <Categories />
+            <Popular />
+            <BannerFooter />
+            <Popular />
+            <FooterNav />
         </div>
     )
 } 

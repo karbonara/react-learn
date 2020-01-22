@@ -58,11 +58,12 @@ body {
 .banner__sale-stock {
     background: #F0F0F4;
 }
-.banner__stock {
+.banner__stock p {
     transform: rotate(-90deg);
     width: 100px;
     display: block;
     padding: 6px;
+    margin: 0;
     position: absolute;
     top: 30px;
     background: linear-gradient(93.82deg, #9710E9 1.17%, #FD8D43 99.31%);
@@ -123,4 +124,27 @@ body {
     height: 97px;
     border-radius: 50%;
     background: #FF7931;
+}
+.popular {
+    display: block;
+}
+.popular__items {
+    text-align: center;
+}
+.popular__item {
+    width: 270px;
+    position: relative;
+    border: 1px solid #CDCDCD;
+    box-sizing: border-box;
+    border-radius: 3px;
+}
+.popular__like-img {
+    content: '';
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    cursor: pointer;
+}
+.footer__nav {
+    background: #F4F4F6;
 }
